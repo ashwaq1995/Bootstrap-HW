@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Movies</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">TV shows</a></li>
+        <li><a href="#">Awards & Event</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/header1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Mortal Engines 2018</h3>
+          <p>An American-New Zealand co-production, the file is set in a post-apocalyptic world where entire cities have been mounted on wheels and motorised.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/header2.jpg" alt="Image">
+        <div class="carousel-caption">
+        </div>      
+      </div>
+
+      <!-- <div class="itemm">
+        <img src="images/header3.jpg" alt="Image">
+        <div class="carousel-caption">
+        </div>      
+      </div> -->
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="left">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Left</span>
+    </a> -->
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Library</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Movies</a>
+  </li>
+</ul>
+
+  <br>
+  
+
+  
+<div class="container">    
+  <div class="row">
+    <div class="col-md-4">
+      <p><strong>Endgame</strong><br> After the devastating events of Avengers: Infinity Wars (2018), the universe in in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+      <img src="images/shawshank.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-md-4"> 
+      <p><strong>Joker</strong> <br> Joker is a 2019 American psychological thriller film directed and produced by Todd Phillips, who co-wrote the screenplay with Scott Silver.</p>
+      <img src="images/joker.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-md-4"> 
+      <p><strong>The Shawshank Redemption</strong> <br>is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption.</p>
+      <img src="images/avengers.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+</div><br>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<footer class="container-fluid text-center">
+  <p>Footer</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
